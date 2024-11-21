@@ -10,6 +10,8 @@ This repository contains the code and documentation for the Handwritten Digit Re
 ## Project Desciption 
 This project focuses on improving the robustness of handwritten digit recognition using adversarial training. We implemented two CNN architectures (Simple CNN and Deep CNN) and trained them with adversarial examples generated using Projected Gradient Descent (PGD) and Fast Gradient Sign Method (FGSM). The MNIST dataset was used for training and testing.
 
+
+
 ## Importing Libraries  
 We used the following libraries for building and training the models:
 - *PyTorch*: For model building, training, tensor operations, and loss functions.
@@ -70,11 +72,19 @@ The trained model was used to predict labels for new, unseen images, demonstrati
 ## Simple CNN vs Deep CNN (PGD)
 ![image](https://github.com/user-attachments/assets/3a66c26f-be8e-4f15-9b34-6b9b1f99782a)
 
+## Installation Guide
 
+Follow these steps to set up and run the project:
 
-## Requirements  
-To run this project, you need to have the following dependencies installed:
+### 1. Clone the Repository
+Use the following command to clone the project repository to your local machine:
+`git clone https://github.com/pragnasri74/Handwritten-Digit-Recognition-with-adversarial-robustness.git`
 
-- *PyTorch*: For model building and training.  
-- *Torchvision*: For dataset loading and image transformations.  
-- *NumPy*: For data manipulation and handling.
+### Navigate to the MyApp directory and Install Necessary Dependencies
+`pip install torch torchvision`
+`pip install streamlit-drawable-canvas`
+### Run the App
+Execute the following command to start the Streamlit app:
+`streamlit run app.py`
+### Now Explore the handwritten digit recognition with adversarial robustness!!
+
