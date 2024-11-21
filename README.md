@@ -65,7 +65,8 @@ The trained model was used to predict labels for new, unseen images, demonstrati
 
 
 ## Simple CNN PGD vs FGSM
-![image](https://github.com/user-attachments/assets/f9bc14bd-eb69-454c-8ce1-527b7567ca8d)
+![image](https://github.com/user-attachments/assets/f0456419-2db8-4bd2-908e-cd0533a60234)
+
 ## Simple CNN vs Deep CNN (PGD)
 ![image](https://github.com/user-attachments/assets/3a66c26f-be8e-4f15-9b34-6b9b1f99782a)
 
