@@ -9,8 +9,8 @@ This repository contains the code and documentation for the Handwritten Digit Re
 - *Nannepaga Vanaja* - 12241110
 ## Project Desciption 
 This project focuses on improving the robustness of handwritten digit recognition using adversarial training. We implemented two CNN architectures (Simple CNN and Deep CNN) and trained them with adversarial examples generated using Projected Gradient Descent (PGD) and Fast Gradient Sign Method (FGSM). The MNIST dataset was used for training and testing.
-
-
+## Methodology
+![image](https://github.com/user-attachments/assets/78eb79e1-acd7-4d68-9f9b-bfa132dcbcd0)
 
 ## Importing Libraries  
 We used the following libraries for building and training the models:
